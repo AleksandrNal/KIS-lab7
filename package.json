@@ -1,0 +1,25 @@
+{
+  "name": "laba7node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vk-io/hear": "^1.1.0",
+    "axios": "^0.24.0",
+    "mongoose": "^6.1.1",
+    "needle": "^3.0.0",
+    "telegraf": "^4.5.2",
+    "vk-io": "^4.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
